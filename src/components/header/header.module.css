@@ -214,7 +214,7 @@ header .simple_and_fascinating .simple_block .icon_block .about2 {
   header .header_block {
     position: relative;
     width: 328px;
-    height: 601px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
