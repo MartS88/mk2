@@ -98,11 +98,11 @@ body {
 
 @media screen and (max-width: 767px) {
   body {
-
+    overflow-x: hidden;
   }
 
   .wrapper, {
-    overflow-x: hidden;
+
     margin: 0 auto;
     width: 100%;
   }
