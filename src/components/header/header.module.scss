@@ -54,10 +54,10 @@ header {
     &::after {
       position: absolute;
       background: url('../../assets/NoteBook.png') center/cover no-repeat;
-      width: 350px;
-      height: 520px;
-      top: 340px;
-      left: 1090px;
+      width: 376px;
+      height: 736px;
+      top: 220px;
+      left: 1170px;
       content: '';
       pointer-events: none;
     }
@@ -126,10 +126,10 @@ header {
         &::before {
           position: absolute;
           background: url('../../assets/keyboard.png') center/cover no-repeat;
-          width: 390px;
-          height: 402px;
-          top: 420px;
-          right: 1170px;
+          width: 630px;
+          height: 713px;
+          top: 290px;
+          left: -370px;
           content: '';
           pointer-events: none;
         }

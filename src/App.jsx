@@ -5,14 +5,17 @@ import Main from "./components/main/Main";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
+
+
+
     return (
         <div className='container'>
 
             <div className='wrapper'>
 
-                <Header/>
+                <Header />
 
-                <Main/>
+                <Main />
 
                 <Footer/>
 

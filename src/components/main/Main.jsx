@@ -9,6 +9,8 @@ import {useMediaQuery} from "react-responsive";
 import Popup from "../popup/Popup";
 const Main = () => {
 
+
+
     const isMobile = useMediaQuery({maxWidth: 765});
 
     const [firstName, setFirstName] = useState('')
@@ -124,6 +126,13 @@ const Main = () => {
         e.preventDefault()
         setPopUpIsActive(!popUpIsActive)
     }
+
+    useEffect(() => {
+        if (popUpIsActive) {
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    }, [popUpIsActive]);
 
     return (
         <main>

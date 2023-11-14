@@ -19,9 +19,9 @@ main .form_back {
 main .form_back::before {
   position: absolute;
   background: url("../../assets/card.png") center/cover no-repeat;
-  width: 165px;
-  height: 120px;
-  top: 120px;
+  width: 316px;
+  height: 250px;
+  top: 30px;
   left: 1180px;
   content: "";
   pointer-events: none;
@@ -38,12 +38,13 @@ main .form_back form {
 main .form_back form::before {
   position: absolute;
   background: url("../../assets/envelope.png") center/cover no-repeat;
-  width: 243px;
-  height: 390px;
-  bottom: 343px;
-  left: 1180px;
+  width: 340px;
+  height: 550px;
+  bottom: 230px;
+  left: 1210px;
   content: "";
   pointer-events: none;
+  z-index: -1;
 }
 main .form_back form h2 {
   width: 382px;
