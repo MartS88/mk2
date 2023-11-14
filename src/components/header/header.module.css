@@ -177,4 +177,161 @@ header .simple_and_fascinating .simple_block .icon_block .about2 {
   color: #919CA2;
 }
 
+@media screen and (max-width: 767px) {
+  header {
+    padding-top: 16px;
+  }
+  header .menu_block {
+    width: 328px;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  header .menu_block .button_block {
+    width: 281px;
+    height: 58px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+  }
+  header .menu_block .button_block .open_account {
+    width: 133px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #919CA2;
+    background: transparent;
+    gap: 2px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #D9DEE2;
+    padding: 0px 4px 0px 4px;
+    cursor: pointer;
+  }
+  header .header_block {
+    position: relative;
+    width: 328px;
+    height: 601px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  header .header_block h1 {
+    width: 328px;
+    font-family: "Prompt";
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
+  header .header_block div {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 12px;
+  }
+  header .header_block div span {
+    width: 292px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #919CA2;
+  }
+  header .header_block .start_now_button {
+    width: 180px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 16px 0px 16px 0px;
+    background: #8A24F3;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+  header .header_block .start_now_button::before {
+    position: absolute;
+    background: url("../../assets/NoteBook2.png") center/cover no-repeat;
+    width: 360px;
+    height: 584px;
+    top: -120px;
+    left: -20px;
+    content: "";
+    pointer-events: none;
+  }
+  header .header_block .start_now_button::after {
+    position: absolute;
+    background: url("../../assets/iphone.png") center/cover no-repeat;
+    width: 269px;
+    height: 821px;
+    top: -390px;
+    left: 83px;
+    content: "";
+    pointer-events: none;
+  }
+  .simple_and_fascinating {
+    width: 360px;
+    height: auto;
+    gap: 32px !important;
+    margin-bottom: 40px !important;
+  }
+  .simple_and_fascinating .simple_title {
+    width: 360px;
+    height: 40px;
+    font-family: "Prompt";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .simple_and_fascinating .simple_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px !important;
+  }
+  .simple_and_fascinating .simple_block .icon_block {
+    width: 100%;
+    height: 175px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px !important;
+  }
+  .simple_and_fascinating .simple_block .icon_block .about {
+    width: 100%;
+    height: 24px;
+    font-family: "Prompt" !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-align: center !important;
+    color: #FFFFFF;
+  }
+  .simple_and_fascinating .simple_block .icon_block .about2 {
+    width: 100%;
+    height: 40px !important;
+    font-family: "Roboto" !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    letter-spacing: 0.4px !important;
+    text-align: center !important;
+    color: #919CA2;
+  }
+}
+
 /*# sourceMappingURL=header.module.css.map */

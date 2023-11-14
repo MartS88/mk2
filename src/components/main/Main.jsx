@@ -9,8 +9,6 @@ import {useMediaQuery} from "react-responsive";
 import Popup from "../popup/Popup";
 const Main = () => {
 
-
-
     const isMobile = useMediaQuery({maxWidth: 765});
 
     const [firstName, setFirstName] = useState('')
@@ -129,13 +127,22 @@ const Main = () => {
 
     useEffect(() => {
         if (popUpIsActive) {
+            if (isMobile) {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                window.scrollTo({ top: 140, behavior: 'smooth' });
+            }
 
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+
         }
-    }, [popUpIsActive]);
+    }, [popUpIsActive,isMobile]);
 
     return (
         <main>
+            {!isMobile ? (
+
+                <>
 
             <div className={s.form_back}>
 
@@ -278,6 +285,154 @@ const Main = () => {
                     <Popup submitHandler={submitHandler} email={email} />
                 </div>
             ) : null}
+
+            </>
+
+                    ) : (
+                    <>
+                        <div className={s.form_back}>
+
+                            <form onSubmit={submitHandler}>
+
+
+                                <h2>
+                                    Enjoy. Learn. Trade.
+
+                                </h2>
+
+                                <div className={s.inputs_block}>
+
+                                    <div className={s.name_group}>
+                                        <div className={s.label_group}>
+                                            <label htmlFor="firstName">First name:</label>
+                                            <input
+                                                className={inputFirstNameCase}
+                                                type="text"
+                                                id="firstName"
+                                                name="firstName"
+                                                autoComplete='off'
+                                                onBlur={e => blurHandler(e)}
+                                                onChange={e => nameHandler(e)}
+                                            />
+
+                                            <div className={s.error_container}>
+                                                {firstNameDirty && firstNameError && (
+                                                    <div className={`${s.error} ${s.visible}`}>
+                                                        {firstNameError}
+                                                    </div>
+                                                )}
+                                            </div>
+
+                                        </div>
+
+
+                                        <div className={s.label_group}>
+                                            <label htmlFor="lastName">Last name:</label>
+                                            <input
+                                                className={inputLastNameCase}
+                                                type="text"
+                                                id="lastName"
+                                                name="lastName"
+                                                autoComplete='off'
+                                                onBlur={e => blurHandler(e)}
+                                                onChange={e => lastNameHandler(e)}
+                                            />
+
+                                            <div className={s.error_container}>
+                                                {lastNameDirty && lastNameError && (
+                                                    <div className={`${s.error} ${s.visible}`}>
+                                                        {lastNameError}
+                                                    </div>
+                                                )}
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div className={s.phone_group}>
+                                        <div className={s.label_group}>
+                                            <label htmlFor="email">Email:</label>
+                                            <input
+                                                className={inputEmailCase}
+                                                type="email"
+                                                id="email"
+                                                name="email"
+                                                autoComplete='off'
+                                                onBlur={e => blurHandler(e)}
+                                                onChange={e => emailHandler(e)}
+
+                                            />
+
+                                            <div className={s.error_container}>
+                                                {emailDirty && emailError && (
+                                                    <div className={`${s.error} ${s.visible}`}>
+                                                        {emailError}
+                                                    </div>
+                                                )}
+                                            </div>
+
+
+                                        </div>
+
+                                        <div className={s.label_group}>
+
+                                            <label htmlFor="phoneNumber">Phone number:</label>
+
+                                            <PhoneInput
+                                                onBlur={() => blurHandler({target: {name: 'phone'}})}
+                                                type="phone"
+                                                id="phone"
+                                                name="phone"
+                                                className={inputPhoneCase}
+                                                country={'in'}
+                                                value={phoneNumber}
+                                                onChange={(value, country,) => handlePhoneChange(value, country,)}
+                                                inputProps={{
+                                                    required: true,
+                                                }}
+                                            />
+
+
+                                            <div className={s.error_container}>
+                                                {phoneNumberDirty && phoneNumberError && (
+                                                    <div className={`${s.error} ${s.visible}`}>
+                                                        {phoneNumberError}
+                                                    </div>
+                                                )}
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <button
+                                    disabled={!activeForm}
+                                    className={activeForm ? s.submit_button : s.button_disabled}
+                                    type='submit'
+                                >
+                                    Start now
+                                </button>
+
+                                <p>
+                                    By proceeding, I accept the Privacy Policy and certify that I am over 18 years old. I
+                                    agree to
+                                    receive company news, product updates and market overviews by email.
+                                    I understand that I can unsubscribe by contacting Customer Support.
+                                </p>
+                            </form>
+
+                            <img src={require('../../assets/safe2.png')} width={320} height={231} draggable={false} />
+                        </div>
+
+                        {popUpIsActive ? (
+                            <div className={s.popup_container}>
+                                <Popup submitHandler={submitHandler} email={email} />
+                            </div>
+                        ) : null}
+                    </>
+            )}
 
         </main>
     );

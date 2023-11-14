@@ -23,18 +23,19 @@
       cursor: pointer;
     }
 
-  span {
+    span {
 
-    font-family: "Prompt";
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 40px;
-    text-align: center;
-    color: #FFFFFF;
-  }
+      font-family: "Prompt";
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 40px;
+      text-align: center;
+      color: #FFFFFF;
+    }
 
     div {
       text-align: center;
+
       p {
         width: 338px;
         font-family: "Roboto";
@@ -45,6 +46,7 @@
         color: #5E6B74;
 
       }
+
       .email {
         font-family: "Roboto";
         font-weight: 400;
@@ -54,6 +56,7 @@
         color: #EDF1F4;
       }
     }
+
     .buttons_block {
       display: flex;
       align-items: center;
@@ -76,12 +79,97 @@
         outline: none;
       }
 
-     .close_button {
-      background: transparent;
-      color: #8A24F3;
-      border: none;
-     }
+      .close_button {
+        background: transparent;
+        color: #8A24F3;
+        border: none;
+      }
 
     }
   }
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .popup {
+    transform: translateY(-70%);
+    width: 328px;
+    height: 488px;
+    border-radius: 12px;
+    padding: 20px;
+
+    .popup_block {
+      width: 288px;
+      height: 412px;
+      gap: 24px;
+
+      span {
+
+        font-family: "Prompt";
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+
+      }
+
+      div {
+        text-align: center;
+
+        p {
+          width: 338px;
+          font-family: "Roboto";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.25px;
+          text-align: center;
+          color: #5E6B74;
+
+        }
+
+        .email {
+          font-family: "Roboto";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.25px;
+          text-align: center;
+          color: #EDF1F4;
+        }
+      }
+
+      .buttons_block {
+        display: flex;
+        align-items: center;
+
+
+        button {
+          width: 102px;
+          height: 56px;
+          border-radius: 8px;
+          padding: 16px 18px 16px 18px;
+          background: #8A24F3;
+          font-family: "Roboto";
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.5px;
+          color: #FFFFFF;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+        }
+
+        .close_button {
+          background: transparent;
+          color: #8A24F3;
+          border: none;
+        }
+
+      }
+    }
+  }
+
+
 }
