@@ -244,38 +244,30 @@ const Footer = () => {
                     </div>
 
                     <div className={s.ul_div}>
-
                         <ul>
-                            <a href="https://www.facebook.com/MTradingGlobal" target="_blank" rel="noopener noreferrer">
-                                <li>
-                                    <img src={require('../../assets/facebook f.png')} width={10} height={18}
-                                         draggable={false}/>
-                                </li>
-                            </a>
-
-                            <a href="https://t.me/MtradingClub" target="_blank" rel="noopener noreferrer">
-                                <li>
-                                    <img src={require('../../assets/telegram.png')} width={18} height={15}
-                                         draggable={false}/>
-                                </li>
-                            </a>
-
-                            <a href="https://twitter.com/mtrading" target="_blank" rel="noopener noreferrer">
-                                <li>
-                                    <img src={require('../../assets/x.png')} width={19} height={16} draggable={false}/>
-                                </li>
-                            </a>
-
-                            <a href="https://www.linkedin.com/company/mtrading/" target="_blank"
-                               rel="noopener noreferrer">
-                                <li>
-                                    <img src={require('../../assets/in.png')} width={24} height={24} draggable={false}/>
-                                </li>
-                            </a>
-
+                            <li>
+                                <a href="https://www.facebook.com/MTradingGlobal" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../../assets/facebook f.png')} width={10} height={18} draggable={false} alt="Facebook"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/MtradingClub" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../../assets/telegram.png')} width={18} height={15} draggable={false} alt="Telegram"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/mtrading" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../../assets/x.png')} width={19} height={16} draggable={false} alt="Twitter"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/mtrading/" target="_blank" rel="noopener noreferrer">
+                                    <img src={require('../../assets/in.png')} width={24} height={24} draggable={false} alt="LinkedIn"/>
+                                </a>
+                            </li>
                         </ul>
-
                     </div>
+
 
                     <p>
                         Address: First Floor, First Saint Vincent Bank Ltd. Building, James Street, Kingstown, St.

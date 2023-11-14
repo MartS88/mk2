@@ -128,26 +128,28 @@ footer .footer_block .second p {
   .ul_div {
     width: 328px;
     align-self: flex-start;
-    margin-left: 30px;
+    margin-left: 45px;
+    margin-bottom: 20px;
   }
   .ul_div ul {
     display: flex;
     align-items: center;
     gap: 20px;
   }
-  .ul_div ul a {
+  .ul_div ul li {
     width: 48px;
-    height: 48px;
   }
-  p {
-    border-top: 1px solid #5E6B74;
-    padding-top: 20px;
-    margin-bottom: 20px;
-    width: 328px;
-    font-size: 10px;
-    line-height: 16px;
-    color: #5E6B74;
-  }
+}
+p {
+  border-top: 1px solid #5E6B74;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  width: 328px;
+  font-weight: 400;
+  font-family: "Roboto";
+  font-size: 10px;
+  line-height: 16px;
+  color: #5E6B74;
 }
 
 /*# sourceMappingURL=footer.module.css.map */
