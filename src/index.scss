@@ -102,11 +102,12 @@ body {
   }
 
   .wrapper, {
-
+    overflow-x: hidden;
     margin: 0 auto;
     width: 100%;
   }
   .container {
+    overflow-x: hidden;
     width: 100%;
   }
 ;
