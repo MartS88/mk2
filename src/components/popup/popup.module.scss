@@ -44,7 +44,7 @@
         line-height: 32px;
         text-align: center;
         color: #5E6B74;
-
+        border: none;
       }
 
       .email {
@@ -93,16 +93,16 @@
 @media screen and (max-width: 767px) {
 
   .popup {
-    transform: translateY(-70%);
+    transform: translateY(10%);
     width: 328px;
-    height: 488px;
+    height: 550px;
     border-radius: 12px;
     padding: 20px;
 
     .popup_block {
       width: 288px;
-      height: 412px;
-      gap: 24px;
+      height: 380px;
+      gap: 20px;
 
       span {
 
@@ -117,7 +117,7 @@
         text-align: center;
 
         p {
-          width: 338px;
+          width: 288px;
           font-family: "Roboto";
           font-weight: 400;
           font-size: 16px;
