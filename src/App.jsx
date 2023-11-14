@@ -8,16 +8,15 @@ const App = () => {
     return (
         <div className='container'>
 
-                    <div className='wrapper'>
+            <div className='wrapper'>
 
+                <Header/>
 
-                    <Header/>
+                <Main/>
 
-                    <Main/>
+                <Footer/>
 
-                    <Footer/>
-
-                    </div>
+            </div>
         </div>
     );
 };

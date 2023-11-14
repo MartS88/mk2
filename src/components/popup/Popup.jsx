@@ -22,7 +22,7 @@ const Popup = ({submitHandler, email}) => {
                         Thank you for registering. To activate your account, please check your email
                     </p>
 
-                    <span>
+                    <span className={s.email}>
                   {email}
                 </span>
                 </div>

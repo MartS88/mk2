@@ -27,17 +27,17 @@ header .menu_block .button_block .open_account {
   width: 133px;
   height: 40px;
   border-radius: 6px;
-  border: 1px solid #D9DEE2;
-  padding: 10px;
+  border: 1px solid #919CA2;
   background: transparent;
   gap: 2px;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
   text-align: center;
-  color: #EDF1F4;
+  color: #D9DEE2;
+  padding: 0px 4px 0px 4px;
   cursor: pointer;
 }
 header .header_block {
@@ -78,7 +78,7 @@ header .header_block .title_block::after {
 }
 header .header_block .title_block h1 {
   width: 580px;
-  font-family: "Promt";
+  font-family: "Prompt";
   font-weight: 500;
   font-size: 55px;
   line-height: 62px;
@@ -134,7 +134,7 @@ header .simple_and_fascinating {
 header .simple_and_fascinating h2 {
   width: 580px;
   height: 52px;
-  font-family: "Promt";
+  font-family: "Prompt";
   font-weight: 500;
   font-size: 40px;
   line-height: 52px;
@@ -158,7 +158,7 @@ header .simple_and_fascinating .simple_block .icon_block {
 header .simple_and_fascinating .simple_block .icon_block .about {
   width: 353.33px;
   height: 28px;
-  font-family: "Promt";
+  font-family: "Prompt";
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
