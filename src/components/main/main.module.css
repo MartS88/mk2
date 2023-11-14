@@ -1,0 +1,182 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main img {
+  margin-top: auto;
+}
+main .form_back {
+  display: flex;
+  justify-content: space-between;
+  height: 560px;
+  width: 100%;
+  border-radius: 32px;
+  background: linear-gradient(83.11deg, rgba(138, 139, 142, 0.1) 3.83%, rgba(239, 239, 239, 0.1) 59.24%, rgba(84, 85, 88, 0.1) 77.71%);
+  margin-bottom: 120px;
+  position: relative;
+}
+main .form_back::before {
+  position: absolute;
+  background: url("../../assets/card.png") center/cover no-repeat;
+  width: 165px;
+  height: 120px;
+  top: 120px;
+  left: 1180px;
+  content: "";
+  pointer-events: none;
+}
+main .form_back form {
+  padding-left: 32px;
+  padding-top: 32px;
+  width: 646px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main .form_back form::before {
+  position: absolute;
+  background: url("../../assets/envelope.png") center/cover no-repeat;
+  width: 243px;
+  height: 390px;
+  bottom: 343px;
+  left: 1180px;
+  content: "";
+  pointer-events: none;
+}
+main .form_back form h2 {
+  width: 382px;
+  height: 52px;
+  font-family: "Promt";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+main .form_back form .inputs_block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main .form_back form .inputs_block .name_group, main .form_back form .inputs_block .phone_group {
+  width: 646px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+main .form_back form .inputs_block .name_group input, main .form_back form .inputs_block .phone_group input {
+  width: 311px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #D9DEE2;
+  padding: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.1s ease;
+  color: #171E27;
+}
+main .form_back form .inputs_block .name_group .label_group, main .form_back form .inputs_block .phone_group .label_group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+main .form_back form .inputs_block .name_group .label_group label, main .form_back form .inputs_block .phone_group .label_group label {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #5E6B74;
+  padding-bottom: 16px;
+}
+main .form_back form .inputs_block .name_group .label_group .error_container, main .form_back form .inputs_block .phone_group .label_group .error_container {
+  height: 6px;
+}
+main .form_back form .inputs_block .name_group .label_group .error_container .error, main .form_back form .inputs_block .phone_group .label_group .error_container .error {
+  padding: 5px;
+  color: red;
+  font-family: "Roboto";
+  font-size: 0.8rem !important;
+}
+main .form_back form .submit_button {
+  width: 646px;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.59px;
+  background: #8A24F3;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+main .form_back form p {
+  width: 646px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #5E6B74;
+}
+main span {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: black;
+}
+main .error.visible {
+  transform: scale(100%);
+}
+main .button_disabled {
+  width: 646px;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.59px;
+  background: #8A24F3;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  border: none;
+  cursor: wait !important;
+}
+main .popup_container {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6980392157);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.module.css.map */

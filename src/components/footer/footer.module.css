@@ -1,0 +1,90 @@
+footer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer h3 {
+  width: 636px;
+  height: 52px;
+  font-family: "Prompt";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+footer .icons_block {
+  margin-bottom: 120px;
+  width: 100%;
+  height: 220px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+}
+footer .icons_block .icon {
+  width: 151.43px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #434D56;
+}
+footer .footer_block {
+  width: 100%;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+}
+footer .footer_block .first {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #5E6B74;
+}
+footer .footer_block .first p {
+  width: 323px;
+  height: 32px;
+  font-family: "Roboto";
+  font-size: 10px;
+  line-height: 16px;
+  color: #5E6B74;
+}
+footer .footer_block .first div {
+  display: flex;
+  align-items: center;
+}
+footer .footer_block .first ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .footer_block .first ul a li {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+footer .footer_block .first ul a li:hover {
+  transform: scale(1.1);
+}
+footer .footer_block .second {
+  width: 100%;
+}
+footer .footer_block .second p {
+  width: 100%;
+  height: 80px;
+  font-family: "Roboot";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #5E6B74;
+}
+
+/*# sourceMappingURL=footer.module.css.map */
