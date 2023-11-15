@@ -110,14 +110,19 @@ const Footer = () => {
                     <div className={s.footer_block}>
 
                         <div className={s.first}>
+
+                            <div className={s.first_div}>
+
+
                             <img src={require('../../assets/logo2.png')} width={67} height={48} draggable={false}/>
 
                             <p>
                                 MTrading execution quality is confirmed by VMT and complies with best execution
                                 standards.
                             </p>
+                            </div>
 
-                            <div>
+                            <div className={s.first_div_2}>
                                 <img src={require('../../assets/logo3.png')} width={110} height={48} draggable={false}/>
 
 

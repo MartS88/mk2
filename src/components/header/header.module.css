@@ -26,6 +26,7 @@ header .menu_block .button_block {
 header .menu_block .button_block .open_account {
   width: 133px;
   height: 40px;
+  padding: 10px;
   border-radius: 6px;
   border: 1px solid #919CA2;
   background: transparent;
@@ -37,7 +38,6 @@ header .menu_block .button_block .open_account {
   letter-spacing: 0.4px;
   text-align: center;
   color: #D9DEE2;
-  padding: 0px 4px 0px 4px;
   cursor: pointer;
 }
 header .header_block {
@@ -106,6 +106,7 @@ header .header_block .title_block .start_now_button {
   padding: 16px 0px 16px 0px;
   background: #8A24F3;
   font-family: "Roboto";
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
