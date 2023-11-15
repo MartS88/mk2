@@ -9,8 +9,8 @@ main img {
 main .form_back {
   display: flex;
   justify-content: space-between;
-  height: 560px;
   width: 100%;
+  height: 554px;
   border-radius: 32px;
   background: linear-gradient(83.11deg, rgba(138, 139, 142, 0.1) 3.83%, rgba(239, 239, 239, 0.1) 59.24%, rgba(84, 85, 88, 0.1) 77.71%);
   margin-bottom: 120px;
@@ -27,10 +27,10 @@ main .form_back::before {
   pointer-events: none;
 }
 main .form_back form {
-  padding-left: 32px;
-  padding-top: 32px;
-  width: 646px;
-  height: 360px;
+  padding-top: 40px;
+  padding-left: 40px;
+  width: auto;
+  height: 496px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -55,6 +55,9 @@ main .form_back form h2 {
   line-height: 52px;
   letter-spacing: 0.4px;
   color: #FFFFFF;
+}
+main .form_back form p {
+  padding: 0;
 }
 main .form_back form .inputs_block {
   width: 100%;
