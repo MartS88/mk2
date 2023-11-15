@@ -155,12 +155,3 @@ const Slider = () => {
 
 export default Slider;
 
-
-// spaceBetween={5}
-// slidesPerView={2}
-// loop={true}
-// pagination={{
-//     clickable: true,
-// }}
-// navigation={true}
-// modules={[Pagination, Navigation]}
