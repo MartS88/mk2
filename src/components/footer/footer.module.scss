@@ -118,6 +118,7 @@ footer {
       font-weight: 500;
       font-size: 28px;
       line-height: 40px;
+      margin-bottom: 40px;
 
     }
 
@@ -127,7 +128,7 @@ footer {
       width: 328px;
       height: 60px;
       gap: 16px;
-
+      margin-bottom: 60px;
     }
   }
   .footer_block {
@@ -135,6 +136,7 @@ footer {
     justify-content: center !important;
     align-items: center !important;
     gap: 0!important;
+    margin-bottom: 0;
 
     .first {
       width: 328px !important;
@@ -142,6 +144,7 @@ footer {
       height: auto!important;
       padding: 0 !important;
       align-items: baseline;
+
 
 
       p {
@@ -159,8 +162,8 @@ footer {
   .ul_div {
     width: 328px;
     align-self: flex-start;
-    margin-left: 45px;
-    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-bottom: 30px;
 
     ul {
 

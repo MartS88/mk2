@@ -34,9 +34,13 @@
     }
 
     div {
+      padding: 0;
+      margin: 0;
       text-align: center;
 
       p {
+        padding: 0;
+        margin: 0;
         width: 338px;
         font-family: "Roboto";
         font-weight: 400;
@@ -77,6 +81,7 @@
         text-align: center;
         cursor: pointer;
         outline: none;
+        border: none;
       }
 
       .close_button {
@@ -93,9 +98,9 @@
 @media screen and (max-width: 767px) {
 
   .popup {
-    transform: translateY(10%);
+    transform: translateY(5%);
     width: 328px;
-    height: 550px;
+    height: 488px;
     border-radius: 12px;
     padding: 20px;
 
@@ -115,8 +120,12 @@
 
       div {
         text-align: center;
+        padding: 0;
+        margin: 0;
 
         p {
+          padding: 0;
+          margin: 0;
           width: 288px;
           font-family: "Roboto";
           font-weight: 400;
@@ -125,6 +134,7 @@
           letter-spacing: 0.25px;
           text-align: center;
           color: #5E6B74;
+
 
         }
 
@@ -159,6 +169,7 @@
           text-align: center;
           cursor: pointer;
           outline: none;
+          border: none;
         }
 
         .close_button {

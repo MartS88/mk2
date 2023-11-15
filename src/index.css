@@ -79,5 +79,41 @@ body {
     width: 100%;
   }
 }
+.swiper {
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+}
+.swiper .swiper-slide {
+  width: 151.43px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #434D56;
+}
+.swiper .swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.swiper .swiper-pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper .swiper-pagination .swiper-pagination-bullet {
+  height: 10px;
+  background-color: #fff;
+  opacity: 0.7;
+  width: 10px;
+  margin: 0 8px;
+}
+.swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #434D56;
+}
 
 /*# sourceMappingURL=index.css.map */

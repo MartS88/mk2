@@ -1,6 +1,7 @@
 import React from 'react';
-import s from './footer.module.css'
+import s from './footer.module.scss'
 import {useMediaQuery} from "react-responsive";
+import Slider from "./swiper/Swiper";
 
 const Footer = () => {
 
@@ -206,13 +207,7 @@ const Footer = () => {
 
                     <div className={s.icons_block}>
 
-                        <div className={s.icon}>
-                            <img src={require('../../assets/payment.png')} width={98} height={26} draggable={false}/>
-                        </div>
-
-                        <div className={s.icon}>
-                            <img src={require('../../assets/payment2.png')} width={98} height={20} draggable={false}/>
-                        </div>
+                        <Slider/>
                     </div>
 
 
