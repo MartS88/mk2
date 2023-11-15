@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 767px) {
   .popup {
-    transform: translateY(15%);
+    transform: translateY(-50%);
     width: 328px;
     height: 488px;
     border-radius: 12px;
