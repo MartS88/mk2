@@ -111,6 +111,7 @@ body {
   position: relative;
   height: 100px;
   overflow: hidden;
+  z-index: 11;
 
   .swiper-slide {
     width: 151.43px;
@@ -120,6 +121,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #434D56;
+
 
     img {
       max-width: 100%;

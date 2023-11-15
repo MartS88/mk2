@@ -83,6 +83,7 @@ body {
   position: relative;
   height: 100px;
   overflow: hidden;
+  z-index: 11;
 }
 .swiper .swiper-slide {
   width: 151.43px;

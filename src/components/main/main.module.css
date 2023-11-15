@@ -178,6 +178,7 @@ main .popup_container {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 5;
 }
 
 @media screen and (max-width: 767px) {
