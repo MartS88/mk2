@@ -130,7 +130,7 @@ const Main = () => {
             if (isMobile) {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             } else {
-                window.scrollTo({ top: 145, behavior: 'smooth' });
+                window.scrollTo({ top: 110, behavior: 'smooth' });
             }
 
 

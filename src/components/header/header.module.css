@@ -113,6 +113,7 @@ header .header_block .title_block .start_now_button {
   text-align: center;
   color: #FFFFFF;
   cursor: pointer;
+  border: none;
 }
 header .header_block .title_block .start_now_button::before {
   position: absolute;

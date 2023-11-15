@@ -124,6 +124,7 @@ header {
         text-align: center;
         color: #FFFFFF;
         cursor: pointer;
+        border: none;
 
         &::before {
           position: absolute;
@@ -237,6 +238,7 @@ header {
           color: #D9DEE2;
           padding: 0px 4px 0px 4px;
           cursor: pointer;
+
         }
       }
     }
@@ -292,6 +294,7 @@ header {
         border: none;
         cursor: pointer;
         position: relative;
+
 
         &::before {
           position: absolute;

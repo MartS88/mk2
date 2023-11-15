@@ -630,14 +630,15 @@ main {
 
 
       .form_back {
-        width: 328px;
+        width: 340px;
         flex-direction: column;
         height: 935px;
         gap: 0px;
         margin-bottom: 40px;
 
         form {
-          padding: 16px;
+
+          padding-left: 16px;
           width: 328px;
           height: 388px;
           display: flex;
