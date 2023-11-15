@@ -148,7 +148,6 @@ const Main = () => {
 
                 <form onSubmit={submitHandler}>
 
-
                         <h2>
                             Enjoy. Learn. Trade.
 
