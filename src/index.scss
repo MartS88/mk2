@@ -14,8 +14,8 @@
 
 body {
   overflow-x: hidden;
-  max-width: 1920px;
   background: #171E27;
+
 }
 .container {
   margin: 0 auto;
@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
@@ -31,6 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .flag-dropdown {
